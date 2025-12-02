@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jugadores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="cargarJugadores()">
+
+<div class="menu-btn" onclick="toggleMenu()">☰ Menu</div>
+
+<div class="menu-box">
+  <a href="equipos.html">Equipos</a>
+  <a href="jugadores.html">Jugadores</a>
+  <a href="eventos.html">Eventos</a>
+  <a href="partidos.html">Partidos</a>
+</div>
+
+
+    <h1>Jugadores</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Dorsal</th>
+                <th>Posición</th>
+                <th>Equipo</th>
+            </tr>
+        </thead>
+
+        <tbody id="jugadores-body"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

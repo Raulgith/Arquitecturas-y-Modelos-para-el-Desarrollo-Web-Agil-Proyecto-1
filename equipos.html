@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Equipos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="cargarEquipos()">
+
+<div class="menu-btn" onclick="toggleMenu()">☰ Menu</div>
+
+<div class="menu-box">
+  <a href="equipos.html">Equipos</a>
+  <a href="jugadores.html">Jugadores</a>
+  <a href="eventos.html">Eventos</a>
+  <a href="partidos.html">Partidos</a>
+</div>
+
+
+    <h1>Equipos</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Ciudad</th>
+                <th>Entrenador</th>
+            </tr>
+        </thead>
+
+        <tbody id="equipos-body"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
